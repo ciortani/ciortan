@@ -11734,8 +11734,8 @@ html {
   }
   .foto{
     position: relative;
-    width: 400px;
-    height: 500px;
-    left: 50px;
+    width: 80%;
+    height: 100%;
+    left: 10%;
   }
 }
