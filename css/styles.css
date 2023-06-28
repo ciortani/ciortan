@@ -598,8 +598,8 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  width: 50%;
+  height: 50%;
 }
 
 .img-thumbnail {
@@ -11588,12 +11588,13 @@ html {
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 80vw;
-  max-height: 45rem;
+  height: 10%;
+
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+
 }
 .profile .dots-1 {
   position: absolute;
@@ -11730,5 +11731,11 @@ html {
   .profile .dots-4 {
     width: 1.5vw;
     left: -2vw;
+  }
+  .foto{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    left: 50px;
   }
 }
